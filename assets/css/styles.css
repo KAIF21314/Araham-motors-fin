@@ -1,6 +1,17 @@
 /* VoltEdge Motors - Mobile-First Creative Electric Vehicle Website Styles */
 
 /* CSS Custom Properties */
+/* Lock the document to LIGHT scheme without changing your colors */
+html {
+  color-scheme: light;        /* tells UA: no auto-dark inversion */
+}
+
+/* Optional: prevent media/UA from inverting images/videos in dark OS */
+@media (prefers-color-scheme: dark) {
+  img, video, canvas, svg { filter: none !important; }
+}
+/* Edited by kaif */
+
 :root {
     /* Brand Colors */
     --brand: #0B8A6A;
