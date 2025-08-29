@@ -7831,7 +7831,6 @@ section {
     .modal-overlay {
         background: rgba(255, 255, 255, 0.1);
     }
-}
 
 .logo {
     display: flex;
@@ -8088,4 +8087,7 @@ section {
     .hero-title {
         font-size: 1.8rem;
     }
-}
+}  
+
+
+
